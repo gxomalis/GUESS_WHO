@@ -20,7 +20,6 @@ skoularikia={x:0 for x in range(total)}
 gualia={x:0 for x in range(total)}
 # νέο λεξικό εδώ
 
-
 x=0
 while x<total:
     print()
@@ -59,7 +58,6 @@ while x<total:
             print("Δώσε ΝΑΙ ή ΟΧΙ...")
     gualia[x] = joker
 #νέα ερώτηση και ανάθεση
-
 
     x += 1
 print("|__________________________________________|")
@@ -102,4 +100,3 @@ while endflag=="ΝΑΙ":
         print("Μαντεύω οτι είσαι ο/η {}! Το πέτυχα;;".format(g_onoma))
     time.sleep(2)
     endflag=input("Θες να συνεχίσεις και σε άλλες μαντεψιές; Γράψε ΝΑΙ ή ΟΧΙ: ")
-
